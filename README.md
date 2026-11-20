@@ -69,7 +69,7 @@ Requirements:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/world-atelier.git
+git clone https://github.com/nicokillerz/world-atelier.git
 cd world-atelier
 ```
 
