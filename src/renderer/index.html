@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>World Atelier</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="desktop.css">
+</head>
+<body>
+<div id="app">
+<aside>
+ <h1 data-act="home" style="cursor:pointer">World Atelier</h1>
+ <button class="pri" data-act="newW">+ Novo mundo</button>
+ <div id="wl"></div>
+ <button data-desk="settings">⚙ Configurações</button>
+ <button data-act="exp">⬇ Exportar backup</button>
+ <button data-act="imp">⬆ Importar backup</button>
+ <input type="file" id="fi" accept="application/json" hidden>
+</aside>
+<main id="mn"></main>
+</div>
+<input type="file" id="fc" accept="image/*" hidden>
+<input type="file" id="fg" accept="image/*,.svg" multiple hidden>
+<input type="file" id="fa" accept="image/*" multiple hidden>
+<input type="file" id="fitem" accept="image/*" hidden>
+<input type="file" id="fworlditem" accept="image/*" hidden>
+<input type="file" id="fmap" accept="image/*" hidden>
+<input type="file" id="fstory" accept="image/*" hidden>
+<datalist id="tl"></datalist><datalist id="gl"></datalist>
+<script src="storage.js"></script>
+<script src="app.js"></script>
+<script src="desktop.js"></script>
+<script src="i18n.js"></script>
+</body>
+</html>
